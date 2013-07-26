@@ -1,0 +1,18 @@
+{
+  "name": "pipevalve",
+  "version": "0.0.0",
+  "description": "Use pipevalve to monitor and control streams just like a valve.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pipe",
+    "stream",
+    "valve",
+    "monitor",
+    "control"
+  ],
+  "author": "KimKhanh",
+  "license": "MIT"
+}
