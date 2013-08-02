@@ -83,6 +83,9 @@ PipeValve.prototype._cancelDelay = function() {
     this._delayed = null;
 };
 
+/**
+ * To cancel after delayed, invoke either turnOn() or turnOff() as required. Valve's state can be either on/off/delay, not dangling in between. So activate any of them by invoking the corresponding function.
+*/
 PipeValve.prototype.delay = function(ms) {
     this._cancelDelay();//In case 'delay()' get called multiple times in a row.
     this.turnOff();
